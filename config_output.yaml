@@ -4,7 +4,7 @@ branch: master
 #  - CKV_DOCKER_1
 compact: true
 # directory:
-  # - folder_1
+  - iac_input_files
   # - aws_cfn_files/EC2
 # docker-image: sample-image
 # dockerfile-path: Dockerfile
@@ -17,7 +17,7 @@ external-checks-git:
 # external-modules-download-path: .external_modules
 # framework: cloudformation,terraform
 framework:
-  - cloudformation
+  # - cloudformation
   - terraform
 # no-guide: true
 output: sarif
