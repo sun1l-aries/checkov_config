@@ -1,0 +1,16 @@
+---
+# This is the custom checks files where yamllint is run as a workflow
+on: [push]  # yamllint disable-line rule:truthy
+jobs:
+  yamllint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: yamllint
+        uses: docker://ghcr.io/ffurrer2/yamllint:latest
+        with:
+          args: '--format standard .'
+        # yamllint disable
+        # run: docker run --tty --volume $(pwd):/tf --workdir /tf bridgecrew/checkov --config-file /tf/config/checkov_config.yaml
+        # yamllint enable
