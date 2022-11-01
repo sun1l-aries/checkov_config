@@ -3,7 +3,7 @@ branch: master
 # check:
 #  - CKV_DOCKER_1
 compact: true
-# directory:
+directory:
   - iac_input_files
   # - aws_cfn_files/EC2
 # docker-image: sample-image
