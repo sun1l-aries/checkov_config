@@ -11,8 +11,8 @@ compact: true
 # download-external-modules: true
 # evaluate-variables: true
 # external-checks-dir:
-# external-checks-git:
-  # - https://github.com/sun1l-aries/checkov_custom_policies.git
+external-checks-git:
+  - https://github.com/sun1l-aries/checkov_custom_policies.git//custom_checks
 # - sample-dir
 # external-modules-download-path: .external_modules
 # framework: cloudformation,terraform
