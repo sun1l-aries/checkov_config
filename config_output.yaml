@@ -12,7 +12,7 @@ directory:
 # evaluate-variables: true
 # external-checks-dir:
 external-checks-git:
-  - https://github.com/sun1l-aries/iac_checkov.git//custom_checks
+  - https://github.com/sun1l-aries/checkov_custom_policies.git//custom_checks
 # - sample-dir
 # external-modules-download-path: .external_modules
 # framework: cloudformation,terraform
