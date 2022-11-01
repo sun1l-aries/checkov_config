@@ -3,16 +3,16 @@ branch: master
 # check:
 #  - CKV_DOCKER_1
 compact: true
-directory:
-  - folder_1
+# directory:
+  # - folder_1
   # - aws_cfn_files/EC2
 # docker-image: sample-image
 # dockerfile-path: Dockerfile
 # download-external-modules: true
 # evaluate-variables: true
 # external-checks-dir:
-external-checks-git:
-  - https://github.com/sun1l-aries/checkov_custom_policies.git
+# external-checks-git:
+  # - https://github.com/sun1l-aries/checkov_custom_policies.git
 # - sample-dir
 # external-modules-download-path: .external_modules
 # framework: cloudformation,terraform
